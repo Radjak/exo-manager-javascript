@@ -255,6 +255,61 @@ const exo_level_01_num_23 = {
     },
 };
 
+const exo_level_01_num_24 = {
+    name: 'Level 01 - 24',
+    input: null,
+    output_expected: 5,
+    algo: (input) => {
+        // Doit retourner un nombre entier aléatoire compris entre 5 et 5
+
+        return;
+    },
+};
+
+const exo_level_01_num_25 = {
+    name: 'Level 01 - 25',
+    input: 555,
+    output_expected: '555',
+    algo: (input) => {
+        // Doit convertir le nombre en chaîne de caractères
+
+        return;
+    },
+};
+
+const exo_level_01_num_26 = {
+    name: 'Level 01 - 26',
+    input: '555',
+    output_expected: 555,
+    algo: (input) => {
+        // Doit convertir la chaîne de caractères en nombre
+
+        return;
+    },
+};
+
+const exo_level_01_num_27 = {
+    name: 'Level 01 - 27',
+    input: 2,
+    output_expected: 8,
+    algo: (input) => {
+        // Doit retourner le combre puissance 3
+
+        return;
+    },
+};
+
+const exo_level_01_num_28 = {
+    name: 'Level 01 - 28',
+    input: 4,
+    output_expected: 2,
+    algo: (input) => {
+        // Doit retourner la racine du nombre
+
+        return;
+    },
+};
+
 const exos = [
     exo_example_ok,
     exo_example_no_ok,
@@ -280,6 +335,11 @@ const exos = [
     exo_level_01_num_21,
     exo_level_01_num_22,
     exo_level_01_num_23,
+    exo_level_01_num_24,
+    exo_level_01_num_25,
+    exo_level_01_num_26,
+    exo_level_01_num_27,
+    exo_level_01_num_28,
 ];
 
 runExos(exos);
