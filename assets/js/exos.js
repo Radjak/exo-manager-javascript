@@ -333,6 +333,119 @@ const exo_level_02_num_02 = {
     },
 };
 
+const exo_level_02_num_03 = {
+    name: 'Level 02 - 03',
+    input: {
+      first_name: '  Jean',
+      id: 128,
+      last_name: 'Dupont',
+    },
+    output_expected: {
+      first_name: 'Jean',
+      full_name: 'Jean DUPONT',
+      id: 128,
+      last_name: 'DUPONT',
+    },
+    algo: (input) => {
+        return;
+    },
+};
+
+const exo_level_02_num_04 = {
+    name: 'Level 02 - 04',
+    input: [
+      {
+        first_name: 'Jean  ',
+        id: 128,
+        last_name: 'Dupont',
+      },
+      {
+        first_name: 'Léo',
+        id: 437,
+        last_name: 'Durand',
+      },
+      {
+        first_name: '  Mickael',
+        id: 256,
+        last_name: 'De Lacasa',
+      },
+    ],
+    output_expected: {
+      count: 3,
+      first_names: 'Jean, Mickael, Léo',
+      users: [
+        {
+          first_name: 'Jean',
+          id: 128,
+          last_name: 'DUPONT',
+        },
+        {
+          first_name: 'Mickael',
+          id: 256,
+          last_name: 'DE LACASA',
+        },
+        {
+          first_name: 'Léo',
+          id: 437,
+          last_name: 'DURAND',
+        },
+      ]
+    },
+    algo: (input) => {
+        return;
+    },
+};
+
+const exo_level_02_num_05 = {
+    name: 'Level 02 - 05',
+    input: [
+      {
+        description: 'Le citron (ou citron jaune) est un agrume, fruit du citronnier, dont le jus a un pH de 2,5. Le citronnier (Citrus limon) est un arbuste de 5 à 10 mètres de haut, à feuilles persistantes, de la famille des Rutacées.',
+        name: 'Citron',
+        quantity: 5,
+      },
+      {
+        description: 'Les kiwis sont des fruits de plusieurs espèces de lianes du genre Actinidia, famille des Actinidiaceae. Ils sont originaires de Chine1, notamment de la province de Shaanxi. On en trouve par ailleurs dans des climats dits montagnards tropicaux. En France, les kiwis de l\'Adour disposent d\'une IGP et d\'un label rouge.',
+        name: 'Kiwi',
+        quantity: 12,
+      },
+      {
+        description: 'La fraise est le fruit des fraisiers, espèces de plantes herbacées appartenant au genre Fragaria (famille des Rosaceae), dont plusieurs sont cultivées.',
+        name: 'Fraise',
+        quantity: 0,
+      },
+      {
+        description: 'La banane est le fruit ou la baie dérivant de l’inflorescence du bananier. Les bananes sont des fruits très généralement stériles issus de variétés domestiquées. Seuls les fruits des bananiers sauvages et de quelques cultivars domestiques contiennent des graines. Les bananes sont généralement jaunes avec des taches brunâtres lorsqu\'elles sont mûres et vertes quand elles ne le sont pas.',
+        name: 'Banane',
+        quantity: 3,
+      },
+      {
+        description: 'Le Melon (Cucumis melo) est une plante herbacée annuelle originaire d\'Afrique intertropicale, appartenant à la famille des Cucurbitacées et largement cultivée comme plante potagère pour son faux-fruit comestible. Le terme désigne aussi le fruit climactérique lui-même très savoureux, sucré et parfumé.',
+        name: 'Melon',
+        quantity: null,
+      },
+    ],
+    output_expected: [
+      {
+        short_description: 'Le citron (ou citron jaune) es[...]',
+        name: 'Citron',
+      },
+      {
+        short_description: 'Les kiwis sont des fruits de p[...]',
+        name: 'Kiwi',
+      },
+      {
+        short_description: 'La banane est le fruit ou la b[...]',
+        name: 'Banane',
+      },
+    ],
+    algo: (input) => {
+        // Doit retourner uniquement les fruit ayant des stocks disponibles et faire des descriptions courtes de 30 caractères
+
+        return;
+    },
+};
+
 const exos = [
     exo_example_ok,
     exo_example_no_ok,
@@ -365,6 +478,9 @@ const exos = [
     exo_level_01_num_28,
     exo_level_02_num_01,
     exo_level_02_num_02,
+    exo_level_02_num_03,
+    exo_level_02_num_04,
+    exo_level_02_num_05,
 ];
 
 runExos(exos);
