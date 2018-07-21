@@ -211,6 +211,50 @@ const exo_level_01_num_19 = {
     },
 };
 
+const exo_level_01_num_20 = {
+    name: 'Level 01 - 20',
+    input: 'Citron',
+    output_expected: 'itr',
+    algo: (input) => {
+        // Doit retourner les caractères de la deuxièmes à la 5ème lettre
+
+        return;
+    },
+};
+
+const exo_level_01_num_21 = {
+    name: 'Level 01 - 21',
+    input: 'Citron',
+    output_expected: 'CITRON',
+    algo: (input) => {
+        // Doit retourner le texte en majuscules
+
+        return;
+    },
+};
+
+const exo_level_01_num_22 = {
+    name: 'Level 01 - 22',
+    input: '  Citron  ',
+    output_expected: 'Citron',
+    algo: (input) => {
+        // Doit retourner le texte sans espace à gauche et à droite
+
+        return;
+    },
+};
+
+const exo_level_01_num_23 = {
+    name: 'Level 01 - 23',
+    input: 'Citron',
+    output_expected: 't',
+    algo: (input) => {
+        // Doit retourner le 3ème caractère
+
+        return;
+    },
+};
+
 const exos = [
     exo_example_ok,
     exo_example_no_ok,
@@ -232,6 +276,10 @@ const exos = [
     exo_level_01_num_17,
     exo_level_01_num_18,
     exo_level_01_num_19,
+    exo_level_01_num_20,
+    exo_level_01_num_21,
+    exo_level_01_num_22,
+    exo_level_01_num_23,
 ];
 
 runExos(exos);
