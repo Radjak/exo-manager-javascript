@@ -310,6 +310,29 @@ const exo_level_01_num_28 = {
     },
 };
 
+const exo_level_02_num_01 = {
+    name: 'Level 02 - 01',
+    input: '2018-02-05',
+    output_expected: '05/02/2018',
+    algo: (input) => {
+        // Doit retourner la date formatée
+        // Utiliser new Date et ses fonctions pour récupérer les valeurs
+
+        return;
+    },
+};
+
+const exo_level_02_num_02 = {
+    name: 'Level 02 - 02',
+    input: '2018-02-05',
+    output_expected: 1521244800000,
+    algo: (input) => {
+        // Doit retourner le timestamp de la date après y avoir rajouté 40 jours
+
+        return;
+    },
+};
+
 const exos = [
     exo_example_ok,
     exo_example_no_ok,
@@ -340,6 +363,8 @@ const exos = [
     exo_level_01_num_26,
     exo_level_01_num_27,
     exo_level_01_num_28,
+    exo_level_02_num_01,
+    exo_level_02_num_02,
 ];
 
 runExos(exos);
