@@ -125,7 +125,7 @@ const exo_level_01_num_11 = {
 const exo_level_01_num_12 = {
     name: 'Level 01 - 12',
     input: ['citron', 'kiwi', 'fraise', 'banane'],
-    output_expected: ['kiwi', 'fraise', 'banane'],
+    output_expected: 'citron',
     algo: (input) => {
         // Doit retourner le premier élément du tableau tout en le retirant de l'original
 
