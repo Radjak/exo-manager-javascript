@@ -194,7 +194,7 @@ const exo_level_01_num_18 = {
     input: [1, 2, 3, 4, 5],
     output_expected: '1,2,3,4,5',
     algo: (input) => {
-        // Doit retourner le tableau trasnformer en chaîne de caractères
+        // Doit retourner le tableau transformer en chaîne de caractères
 
         return;
     },
@@ -216,7 +216,7 @@ const exo_level_01_num_20 = {
     input: 'Citron',
     output_expected: 'itr',
     algo: (input) => {
-        // Doit retourner les caractères de la deuxièmes à la 5ème lettre
+        // Doit retourner les caractères de la deuxièmes à la 4ème lettre
 
         return;
     },
@@ -293,7 +293,7 @@ const exo_level_01_num_27 = {
     input: 2,
     output_expected: 8,
     algo: (input) => {
-        // Doit retourner le combre puissance 3
+        // Doit retourner le nombre puissance 3
 
         return;
     },
