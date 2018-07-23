@@ -170,7 +170,7 @@ const exo_level_01_num_15 = {
 const exo_level_01_num_16 = {
     name: 'Level 01 - 16',
     input: [45, 4512, 389, 19, 1863],
-    output_expected: true,
+    output_expected: [19, 45, 389, 1863, 4512],
     algo: (input) => {
         // Doit retourner le tableau trier par ordre croissant
 
